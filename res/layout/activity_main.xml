@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.smu.funapp.MainActivity"
+    tools:ignore="MergeRootFrame" >
+    
+    <Button 
+        android:id="@+id/btn"
+        android:text="@string/btn_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onTap"
+        android:layout_weight="1"
+        />
+    
+    <Button 
+        android:id="@+id/btn_message"
+        android:text="@string/btn_message"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:onClick="sendMessage"
+        android:layout_weight="1"
+        />
+    
+</LinearLayout>
+
